@@ -1,0 +1,194 @@
+body {
+    /* font-family: "Montserrat"; */
+}
+
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+p {
+    color: gray;
+}
+
+/* Navigation bar */
+
+
+.navbar {
+    padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+
+/* Download Button */
+
+.Download-Button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* title image */
+
+.title-image {
+    width: 22%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+
+/* features Section */
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonials section */
+
+#testimonials {
+    text-align: center;
+    background: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+
+}
+
+#press {
+    background: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Call to Action  */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+
+.cta-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.socile-icon {
+    padding: 10px 20px;
+}
+
+
+
+@media (max-width:1000px) {
+
+    #title {
+        text-align: center;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+
+    }
+}
